@@ -22,11 +22,17 @@ const Testimonials = () => {
   return (
     <div className="min-h-screen min-w-screen section">
       <div className="bg-[url('/service-bg.png')] bg-cover w-[95vw] h-auto rounded-2xl">
-        <div className="grid grid-cols-4 p-10 h-full row-auto gap-5">
+        <div className="grid grid-cols-1 lg:grid-cols-4 p-10 h-full row-auto gap-5">
           <h1 className="text-5xl col-span-2 font-semibold max-w-[40vw]">
             Elevating oral health with personalized service.
           </h1>
-          <motion.div variants={cardAnimation} initial="hidden" whileInView="visible" whileHover="hover" className="bg-yellow-100 border-[2px] text-3xl text-black rounded-2xl p-5 border-black  row-span-3 col-span-2">
+          <motion.div
+            variants={cardAnimation}
+            initial="hidden"
+            whileInView="visible"
+            whileHover="hover"
+            className="bg-yellow-100 border-[2px] text-3xl text-black rounded-2xl p-5 border-black  row-span-3 col-span-2"
+          >
             <div className="flex flex-row gap-5 items-center">
               <Image
                 src="/profile/1.jpg"
@@ -59,7 +65,13 @@ const Testimonials = () => {
               </p>
             </div>
           </motion.div>
-          <motion.div  variants={cardAnimation} initial="hidden" whileInView="visible" whileHover="hover" className="bg-yellow-100 border-[2px] text-3xl text-black rounded-2xl p-5 border-black row-span-2 col-span-1">
+          <motion.div
+            variants={cardAnimation}
+            initial="hidden"
+            whileInView="visible"
+            whileHover="hover"
+            className="bg-yellow-100 border-[2px] text-3xl text-black rounded-2xl p-5 border-black row-span-2 col-span-2 lg:col-span-1"
+          >
             <div className="flex flex-row gap-5 items-center">
               <Image
                 src="/profile/2.jpg"
@@ -84,7 +96,13 @@ const Testimonials = () => {
               </p>
             </div>
           </motion.div>{" "}
-          <motion.div  variants={cardAnimation} initial="hidden" whileInView="visible" whileHover="hover" className="bg-yellow-100 border-[2px] text-3xl text-black rounded-2xl p-5 border-black row-span-1 col-span-1">
+          <motion.div
+            variants={cardAnimation}
+            initial="hidden"
+            whileInView="visible"
+            whileHover="hover"
+            className="bg-yellow-100 border-[2px] text-3xl text-black rounded-2xl p-5 border-black row-span-1 col-span-2 lg:col-span-1"
+          >
             <div className="flex flex-row gap-5 items-center">
               <Image
                 src="/profile/3.jpg"
@@ -105,7 +123,13 @@ const Testimonials = () => {
               <h1 className="font-semibold">Good service </h1>
             </div>
           </motion.div>{" "}
-          <motion.div  variants={cardAnimation} initial="hidden" whileInView="visible" whileHover="hover" className="bg-yellow-100 border-[2px] text-3xl text-black rounded-2xl p-5 border-black row-span-1 col-span-1">
+          <motion.div
+            variants={cardAnimation}
+            initial="hidden"
+            whileInView="visible"
+            whileHover="hover"
+            className="bg-yellow-100 border-[2px] text-3xl text-black rounded-2xl p-5 border-black row-span-1 col-span-2 lg:col-span-1"
+          >
             <div className="flex flex-row gap-5 items-center">
               <Image
                 src="/profile/4.jpg"
@@ -126,8 +150,14 @@ const Testimonials = () => {
               <h1 className="font-semibold">Polite Doctor </h1>
             </div>
           </motion.div>
-          <motion.div  variants={cardAnimation} initial="hidden" whileInView="visible" whileHover="hover" className="bg-yellow-100 border-[2px] text-3xl text-black rounded-2xl p-5 border-black row-span-1 col-span-2">
-          <div className="flex flex-row gap-5 items-center">
+          <motion.div
+            variants={cardAnimation}
+            initial="hidden"
+            whileInView="visible"
+            whileHover="hover"
+            className="bg-yellow-100 border-[2px] text-3xl text-black rounded-2xl p-5 border-black row-span-1 col-span-2 lg:col-span-2"
+          >
+            <div className="flex flex-row gap-5 items-center">
               <Image
                 src="/profile/5.jpg"
                 alt="Profile image"
@@ -148,11 +178,17 @@ const Testimonials = () => {
               <p className="mt-5 text-lg ">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio
                 fugit porro voluptate facere corporis eum rem ullam.
-                </p>
+              </p>
             </div>
           </motion.div>{" "}
-          <motion.div  variants={cardAnimation} initial="hidden" whileInView="visible" whileHover="hover" className="bg-yellow-100 border-[2px] text-3xl text-black rounded-2xl p-5 border-black row-span-1 col-span-2">
-          <div className="flex flex-row gap-5 items-center">
+          <motion.div
+            variants={cardAnimation}
+            initial="hidden"
+            whileInView="visible"
+            whileHover="hover"
+            className="bg-yellow-100 border-[2px] text-3xl text-black rounded-2xl p-5 border-black row-span-1 col-span-2"
+          >
+            <div className="flex flex-row gap-5 items-center">
               <Image
                 src="/profile/6.jpg"
                 alt="Profile image"
@@ -173,7 +209,7 @@ const Testimonials = () => {
               <p className="mt-5 text-lg ">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio
                 fugit porro voluptate facere corporis eum rem ullam.
-                </p>
+              </p>
             </div>
           </motion.div>
         </div>

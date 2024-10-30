@@ -35,7 +35,7 @@ const AppointmentSection = () => {
 
   return (
     <div className="min-h-screen w-screen p-10 flex flex-col lg:flex-row justify-evenly items-center gap-10">
-      <div className="flex justify-center items-center">
+      <div className=" hidden md:flex justify-center items-center">
         <motion.div className="overflow-hidden" initial={{x:-500,opacity:0}} whileInView={{x:0,opacity:1}}>
         <Image
           src="/appointment-image.png"

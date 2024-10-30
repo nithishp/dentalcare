@@ -37,8 +37,8 @@ const Services = () => {
   ];
 
   return (
-    <div className="min-h-screen min-w-screen section">
-      <div className="bg-[url('/service-bg.png')] bg-cover w-full h-[80vh] lg:h-[95vh] rounded-2xl">
+    <div className="min-h-screen h-auto min-w-screen section">
+      <div className="bg-[url('/service-bg.png')] bg-cover flex flex-col justify-evenly w-full h-auto  lg:h-[95vh] rounded-2xl">
         <div className="w-full flex flex-col lg:flex-row justify-start items-start lg:justify-between p-6 lg:p-10">
           <h1 className="text-3xl lg:text-5xl font-semibold max-w-[90vw] lg:max-w-[40vw] text-center lg:text-left">
             Elevating oral health with personalized service.
@@ -50,7 +50,7 @@ const Services = () => {
             personalized care to deliver exceptional results.
           </p>
         </div>
-        <div className="px-4 lg:px-10 flex flex-col lg:flex-row justify-evenly gap-5">
+        <div className="  lg:px-10 py-5 lg:py-0 flex flex-col items-center lg:flex-row justify-evenly gap-5">
           {cards.map((card, index) => (
             <motion.div
               initial={{ y: -100 * index, opacity: 0 }}
