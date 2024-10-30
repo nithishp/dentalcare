@@ -168,25 +168,6 @@ const LINKS = [
   },
 ];
 
-const SOCIAL_CTAS = [
-  {
-    Component: SiTwitter,
-    href: "#",
-  },
-  {
-    Component: SiInstagram,
-    href: "#",
-  },
-  {
-    Component: SiLinkedin,
-    href: "#",
-  },
-  {
-    Component: SiYoutube,
-    href: "#",
-  },
-];
-
 const UNDERLAY_VARIANTS = {
   open: {
     width: "calc(100% - 32px)",

@@ -7,7 +7,7 @@ import { WordPullUp } from './ui/word-pull-up';
 const Hero = () => {
   return (
     <div className=" bg-[url('/small-hero-bg.png')] lg:bg-[url('/hero-bg-image.png')] pl-3 section  w-full bg-cover h-[95vh] rounded-2xl flex flex-col items-start justify-center">
-      <div className="flex flex-col items-start">
+      <div className="flex flex-col items-start lg:pl-3">
         <WordPullUp
           className="text-lg font-medium text-neutral-900 lg:text-nowrap text-wrap max-w-[70vw] -mb-3 ml-3 "
           words="Expert Dental care in namma Nagercoil !!!"
@@ -37,10 +37,10 @@ const Hero = () => {
           }}
           className="px-6 py-4 bg-neutral-950 rounded-[50px] mt-10 font-semibold"
         >
-          Get Started
+          Book an Appointment
         </motion.button>
       </div>
-      <div className="absolute flex gap-6 justify-center items-center right-0 lg:right-5 rotate-90">
+      <div className="absolute flex gap-6 justify-center items-center right-0 lg:right-5 cursor-pointer rotate-90">
         <p className="text-neutral-950 ">Scroll to explore</p>
         <CircleArrowRight className="text-neutral-950" />
       </div>
